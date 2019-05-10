@@ -1,0 +1,27 @@
+print("Enter the two numbers")
+mum1=int(input())
+num2=int(input())
+print("Enter the oparetor you want to use  ")
+num3=input()
+
+if mum1==43 and num2==3and num3=="*":
+    mul1=mum1*num2
+    print("555")
+elif mum1==65 and num2==9 and num3=="+":
+    add1=mum1+num2
+    print(77)
+elif mum1==56 and num2==6 and num3=="/":
+    div1=mum1/num2
+    print(4)
+elif num3=="+":
+    add=mum1+num2
+    print(add)
+elif num3=="-":
+    sub=mum1-num2
+    print(sub)
+elif num3=="*":
+    mul=mum1*num2
+    print(mul)
+elif num3=="/":
+    div=mum1/num2
+    print(div)
